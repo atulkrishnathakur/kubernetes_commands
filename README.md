@@ -34,3 +34,9 @@ atul@atul-Lenovo-G570:~$ kubectl version --client
 ```
 atul@atul-Lenovo-G570:~$ kubectl get nodes
 ```
+
+## check all pods of kubernetes
+```
+atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
+
+```
