@@ -46,3 +46,9 @@ atul@atul-Lenovo-G570:~$ kubectl get nodes
 atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
 
 ```
+
+## What is cluster in kubernetes
+- Cluster is a group of machines. It run multiple containers togather.
+
+## What is namesapce in cluster
+- namespace used to create separate environment for a project in a cluster of kubernetes.
