@@ -1,6 +1,12 @@
 ## Minikube 
 - minikube is usefull for development and local machine. If in your machine ram,processor is low then minikube is best option for kubernetes.
 
+## Basic Structure of Kubernetes
+- Pod: It is a smallest unit of kubernetes. It contain more than one container.
+- Node: It is a machine where kubernetes pods run. It is a single node in minikube.
+- Deployment: It manage the pods so application will run properly.
+- Service: It provide network access so your applications communicate easly.
+
 ## How to install minikube
 - Note: before minikube installation install the docker in your machine
 ```
