@@ -16,3 +16,21 @@
 atul@atul-Lenovo-G570:~$ minikube start --driver=docker
 
 ```
+## verify minikube installation
+```
+atul@atul-Lenovo-G570:~$ minikube status
+```
+
+## Install the `kubectl`
+```
+atul@atul-Lenovo-G570:~$ sudo snap install kubectl --classic
+```
+
+## verify kubectl installation
+```
+atul@atul-Lenovo-G570:~$ kubectl version --client
+```
+
+```
+atul@atul-Lenovo-G570:~$ kubectl get nodes
+```
