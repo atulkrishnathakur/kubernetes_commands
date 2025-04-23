@@ -72,5 +72,10 @@ atul@atul-Lenovo-G570:~$ minikube ip
 ## get the namesapces list
 ```
 atul@atul-Lenovo-G570:~$ kubectl get namespaces
+```
 
+## how to delete namespace
+command: `$ kubectl delete namespace tinytechservices-namesapce`
+```
+atul@atul-Lenovo-G570:~$ kubectl delete namespace tinytechservices-namesapce
 ```
