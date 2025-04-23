@@ -62,3 +62,9 @@ atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
     atul@atul-Lenovo-G570:~$ kubectl create namespace tinytechservices_namesapce
     ```
 - Note: kubernetes support alphanumeric characters(a-z,0-9) and hyphen (-) for the name space name but underscore(_) and capital letters does not supported by kubernetes for the name space.
+
+## check ip address of minikube
+```
+atul@atul-Lenovo-G570:~$ minikube ip
+
+```
