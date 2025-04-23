@@ -68,3 +68,9 @@ atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
 atul@atul-Lenovo-G570:~$ minikube ip
 
 ```
+
+## get the namesapces list
+```
+atul@atul-Lenovo-G570:~$ kubectl get namespaces
+
+```
