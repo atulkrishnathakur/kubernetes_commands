@@ -50,7 +50,7 @@ atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
 ## What is cluster in kubernetes
 - Cluster is a group of machines. It run multiple containers togather.
 
-## What is namesapce in cluster
+## What is namesapce in cluster and how to create namespace
 - namespace used to create separate environment for a project in a cluster of kubernetes. kubernetes automatically create a `default` namespace
 - create namespace
   - first check the status. command `$ minikube status`
