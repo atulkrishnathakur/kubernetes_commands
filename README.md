@@ -79,6 +79,8 @@ atul@atul-Lenovo-G570:~$ kubectl get namespaces
 ```
 
 ## how to delete namespace
+- first check the status. command `$ minikube status`
+- first start the `minikube` if not start. command: `$ minikube start`
 command: `$ kubectl delete namespace tinytechservices-namesapce`
 ```
 atul@atul-Lenovo-G570:~$ kubectl delete namespace tinytechservices-namesapce
