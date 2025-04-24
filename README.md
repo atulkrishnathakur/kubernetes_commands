@@ -22,7 +22,7 @@
 atul@atul-Lenovo-G570:~$ minikube start --driver=docker
 
 ```
-## verify minikube installation
+## verify minikube installation and check minikube status
 ```
 atul@atul-Lenovo-G570:~$ minikube status
 ```
@@ -53,6 +53,7 @@ atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
 ## What is namesapce in cluster
 - namespace used to create separate environment for a project in a cluster of kubernetes. kubernetes automatically create a `default` namespace
 - create namespace
+  - first check the status. command `$ minikube status`
   - first start the `minikube` if not start. command: `$ minikube start`
     ```
     atul@atul-Lenovo-G570:~$ minikube start
@@ -64,12 +65,15 @@ atul@atul-Lenovo-G570:~$ kubectl get pods --all-namespaces
 - Note: kubernetes support alphanumeric characters(a-z,0-9) and hyphen (-) for the name space name but underscore(_) and capital letters does not supported by kubernetes for the name space.
 
 ## check ip address of minikube
+- first check the status. command `$ minikube status`
+- first start the `minikube` if not start. command: `$ minikube start`
 ```
 atul@atul-Lenovo-G570:~$ minikube ip
-
 ```
 
 ## get the namesapces list
+- first check the status. command `$ minikube status`
+- first start the `minikube` if not start. command: `$ minikube start`
 ```
 atul@atul-Lenovo-G570:~$ kubectl get namespaces
 ```
